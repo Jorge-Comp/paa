@@ -11,7 +11,7 @@
 public class quick_Sort {
     
    public static void main(String[] args) {
-        int[] Num= {15,9 , 10 , -1, 3, 6, 2, 1, -3, 1, 0, -2, 15, 8, -7, 0}; //vetor teste
+        int[] Num= {9 , 10 , -1, 3, 6, 2, 1, -3, 1, 0, -2, 15, 8, -7, 0}; //vetor teste
         int p=0; //posição inicial do vetor
         int f=Num.length-1; // posição final do vetor
         quick_Sort(Num,p,f); //chamada da função de ordenação com o vetor e as posições inicial e final
